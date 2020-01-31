@@ -5,12 +5,12 @@ We'll likely need to rely on donations or ad revenue to run the server once it s
 # Technologies
 The following technologies are those that are used at the core. This is not to say we must only use these technologies, but using other similar technologies will clash with these, and as such we should convene on these specific Technologies for their use case:
 
-Typescript: Main language for the game, both backend and frontend!
-Npm: Dependency management system for the game. This one is a little loose as I'm simply familiar with it, but I'm open to change.
-Docker: We should containerize the app for ease of autoscaling and deployment.
-Angular: UI framework, I choose Angular simply because I have used a form of it, and its written in typescript, so its nice.
-Bootstrap: I've used Boostrap quite a bit, and it is really nice. Why not use it?
-Express: I've used Express to start up servers and it is quite nice on NodeJS.
-Colyseus: Very good javascript/typescript library for match finding and building. When we put together "rooms" for people to drop into (places they go, maybe sharded so not everyone in one location is in one room), this will be quite helpful.
-Phaser: Pretty good javascript frontend game platform. We'll see how it matches up with what we can do.
-Auth0: Need to authorize users, and rather than write this ourselves we should use a standard service. Auth0 is a great one I've used on a number of occasions.
+- Typescript: Main language for the game, both backend and frontend!
+- Npm: Dependency management system for the game. This one is a little loose as I'm simply familiar with it, but I'm open to change.
+- Docker: We should containerize the app for ease of autoscaling and deployment.
+- Angular: UI framework, I choose Angular simply because I have used a form of it, and its written in typescript, so its nice.
+- Bootstrap: I've used Boostrap quite a bit, and it is really nice. Why not use it?
+- Express: I've used Express to start up servers and it is quite nice on NodeJS.
+- Colyseus: Very good javascript/typescript library for match finding and building. When we put together "rooms" for people to drop into (places they go, maybe sharded so not everyone in one location is in one room), this will be quite helpful.
+- Phaser: Pretty good javascript frontend game platform. We'll see how it matches up with what we can do.
+- Auth0: Need to authorize users, and rather than write this ourselves we should use a standard service. Auth0 is a great one I've used on a number of occasions.
